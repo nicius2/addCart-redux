@@ -42,7 +42,7 @@ export const CardPrice = styled.span`
   color: #2d6a4f;
 `;
 
-export const CardButton = styled.button`
+export const CardButton = styled.button<React.ButtonHTMLAttributes<HTMLButtonElement>>`
   margin-top: 0.5rem;
   padding: 0.5rem;
   background: #222;

@@ -8,9 +8,12 @@ export const NavBarContainer = styled.div`
      width: 100%;
 `
 
-export const Container = styled.div`
+export const ContainerButton = styled.button<React.ButtonHTMLAttributes<HTMLButtonElement>>`
   position: relative;
   width: fit-content;
+  background: none;
+  border: none;
+  cursor: pointer;
 `;
 
 export const Badge = styled.span`

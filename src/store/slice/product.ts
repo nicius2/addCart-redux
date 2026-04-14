@@ -29,7 +29,7 @@ export const productSlice = createSlice({
   name: "product",
   initialState,
   reducers: {},
-  extraReducers: (builder) => { // 👈 faltava isso para capturar o resultado do thunk
+  extraReducers: (builder) => { 
     builder.addCase(loadProduct.fulfilled, (state, action) => {
       state.product = action.payload;
     });

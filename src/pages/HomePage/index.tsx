@@ -1,5 +1,5 @@
-import { Navbar } from "../../components/navbar";
-import { ProductItem } from "../../components/products";
+import { Navbar } from "../../components/Navbar";
+import { ProductItem } from "../../components/Products";
 import { ContainerDiv } from "./styled";
 import { loadProduct } from "../../store/slice/product";
 import { useEffect } from "react";

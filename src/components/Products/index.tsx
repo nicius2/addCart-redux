@@ -1,4 +1,3 @@
-// ProductItem.jsx
 import {
      CardContainer,
      CardImg,
@@ -7,9 +6,11 @@ import {
      CardButton,
      ProductsWrapper,
 } from "./styled";
-import { useAppSelector } from "../../store";
+import { useAppDispatch, useAppSelector } from "../../store";
+import { addToCart } from "../../store/slice/cartSlice";
 
 export function ProductItem() {
+  const dispatch = useAppDispatch()
   const products = useAppSelector((state) => state.product.product);
 
   return (
@@ -25,7 +26,7 @@ export function ProductItem() {
                 currency: "BRL",
               })}
             </CardPrice>
-            <CardButton>Adicionar ao carrinho</CardButton>
+            <CardButton onClick={() => dispatch(addToCart(product))} >Adicionar ao carrinho</CardButton>
           </CardItem>
         </CardContainer>
       ))}
