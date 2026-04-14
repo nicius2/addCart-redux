@@ -1,9 +1,13 @@
 import { Navbar } from "../../components/navbar";
+import { ProductItem } from "../../components/products";
+import { ContainerDiv } from "./styled";
 
 export function HomePage() {
-     return (
-          <div>
-               <Navbar />
-          </div>
-     )
+
+  return (
+    <ContainerDiv>
+      <Navbar />
+      <ProductItem />
+    </ContainerDiv>
+  );
 }

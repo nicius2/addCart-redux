@@ -4,7 +4,7 @@ import { Badge, Container, NavBarContainer } from "./style"; // Badge e Containe
 import { useState } from "react";
 
 export function Navbar() {
-  const [count] = useState(2);
+  const [count] = useState(1);
 
   return (
     <NavBarContainer>

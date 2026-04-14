@@ -1,0 +1,7 @@
+{
+  "product": [
+    {"id": 1, "title": "Tenis Azul", "price": 290.90, "img": "src/assets/blue.png"},
+    {"id": 2, "title": "Tenis Vermelho", "price": 349.90, "img": "src/assets/red.png"},
+    {"id": 3, "title": "Tenis Laranja", "price": 199.90, "img": "src/assets/orange.png"}
+  ]
+}
