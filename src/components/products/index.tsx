@@ -1,11 +1,11 @@
 // ProductItem.jsx
 import {
-  CardContainer,
-  CardImg,
-  CardItem,
-  CardPrice,
-  CardButton,
-  ProductsWrapper,
+     CardContainer,
+     CardImg,
+     CardItem,
+     CardPrice,
+     CardButton,
+     ProductsWrapper,
 } from "./styled";
 import { useAppSelector } from "../../store";
 
